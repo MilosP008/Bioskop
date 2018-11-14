@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="srb">
+	<head>
+		<title>Bioskop</title>
+		<base href="Film.html" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="Bioskop, Karte, Film, Sedista, Blagajnik, Reziser" />
+		<meta name="description" content="Ovo je sajt za kupovinu karata za filmove" />
+		<meta name="author" content="Miloš Petrović" />
+		<link rel="icon" type="image/icon-x" href="Slike/Bioskop.png" />
+		<link rel="stylesheet" type="text/css" href="Film.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Bioskop</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Bioskop.html">Početna</a></li>
+				<li class="padajuci_meni" style="border: 1px solid black"><a href="Film.html">Filmovi</a>
+					<div class="sadrzaj_menija">
+						<a href="#zanrovi">Žanrovi</a>
+						<a href="#">2D</a>
+						<a href="#">3D</a>
+						<a href="#">4D</a>
+					</div>
+				</li>
+				<li class="padajuci_meni"><a href="Karte.html">Karte</a>
+					<div class="sadrzaj_menija">
+						<a href="Karte.html#cena">Cena</a>
+						<a href="Karte.html#sedista">Broj sedišta</a>
+						<a href="Karte.html#blagajnici">Blagajnici</a>
+					</div>
+				</li>
+				<li class="padajuci_meni"><a href="Reziser.html">Režiseri</a>
+					<div class="sadrzaj_menija">
+						<a href="#">Hollywood</a>
+						<a href="#">Srpski</a>
+						<a href="#">Engleski</a>
+					</div>
+				</li>
+				<li id="pretraga_dugme"><a href="#" id="pretraga_link">Pretraga&nbsp;</a>
+					<input type="text" id="pretraga" />
+				</li>
+			</ul>
+		</nav><br/>
+		<div id="aside_section">
+			<aside>
+				<a class="fa fa-facebook" href="https://www.facebook.com/">&nbsp;&nbsp;Facebook</a><br/>
+				<a class="fa fa-youtube" href="https://www.youtube.com/">&nbsp;&nbsp;Youtube</a><br/>
+				<a class="fa fa-twitter" href="https://twitter.com/">&nbsp;&nbsp;Twitter</a><br/>
+				<a class="fa fa-linkedin" href="https://www.linkedin.com/">&nbsp;&nbsp;LinkedIn</a><br/>
+				<a class="fa fa-instagram" href="https://www.instagram.com/">&nbsp;&nbsp;Instagram</a><br/>
+				<a class="fa fa-google" href="https://www.google.rs/">&nbsp;&nbsp;Google</a><br/>
+				<a class="fa fa-tumblr" href="https://www.tumblr.com/">&nbsp;&nbsp;Tumblr</a><br/>
+				<a class="fa fa-vine" href="https://vine.co/">&nbsp;&nbsp;Vine</a><br/>
+				<a class="fa fa-github" href="https://github.com/">&nbsp;&nbsp;GitHub</a>
+			</aside>
+			<section>
+				<content>
+					<div id="zanrovi">
+						<h2>Žanrovi</h2>
+						<a href="#komedija">Komedija</a><br/>
+						<a href="#horor">Horor</a><br/>
+						<a href="#naucna_fantastika">Naučna fantastika</a><br/>
+						<a href="#drama">Drama</a><br/>
+						<a href="#triler">Triler</a>
+					</div><br/>
+					<div id="komedija">
+						<h2>Komedija</h2>
+						<p>
+							<strong>Film: Step brothers</strong><br/>
+							<strong>Godina: 2008</strong>
+						</p>
+						<img src="Slike/Step brothers.jpg" alt="Step brothers" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Adam McKay</strong><br/>
+								<strong>Pisci: Will Ferrell, Adam McKay</strong><br/>
+								<strong>Zvezde: Will Ferrell, John C. Reilly, Mary Steenburgen</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>22:00</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: The other guys</strong><br/>
+							<strong>Godina: 2010</strong>
+						</p>
+						<img src="Slike/The other guys.jpg" alt="The other guys" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Adam McKay</strong><br/>
+								<strong>Pisci: Adam McKay, Chris Henchy</strong><br/>
+								<strong>Zvezde: Will Ferrell, Mark Wahlberg, Derek Jeter</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>21:30</strong>
+								</div>
+							</div>
+						</div>
+					</div><br/>
+					<div id="horor">
+						<h2>Horor</h2>
+						<p>
+							<strong>Film: It</strong><br/>
+							<strong>Godina: 2017</strong>
+						</p>
+						<img src="Slike/It.jpg" alt="It" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Andy Muschietti</strong><br/>
+								<strong>Pisci: Chase Palmer, Cary Fukunaga</strong><br/>
+								<strong>Zvezde: Bill Skarsgård, Jaeden Lieberher, Finn Wolfhard</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>17:30</strong><br/>
+									<strong>22:00</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: The void</strong><br/>
+							<strong>Godina: 2016</strong>
+						</p>
+						<img src="Slike/The void.jpg" alt="The void" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Jeremy Gillespie, Steven Kostanski</strong><br/>
+								<strong>Pisci: Jeremy Gillespie, Steven Kostanski</strong><br/>
+								<strong>Zvezde: Aaron Poole, Kenneth Welsh, Daniel Fathers</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>23:00</strong>
+								</div>
+							</div>
+						</div>
+					</div><br/>
+					<div id="naucna_fantastika">
+						<h2>Naučna fantastika</h2>
+						<p>
+							<strong>Film: Primer</strong><br/>
+							<strong>Godina: 2004</strong>
+						</p>
+						<img src="Slike/Primer.jpg" alt="Primer" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Shane Carruth</strong><br/>
+								<strong>Pisci: Shane Carruth</strong><br/>
+								<strong>Zvezde: Shane Carruth, David Sullivan, Casey Gooden</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>15:00</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: Avatar</strong><br/>
+							<strong>Godina: 2009</strong>
+						</p>
+						<img src="Slike/Avatar.jpg" alt="Avatar" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: James Cameron</strong><br/>
+								<strong>Pisci: James Cameron</strong><br/>
+								<strong>Zvezde: Sam Worthington, Zoe Saldana, Sigourney Weaver</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>14:00</strong><br/>
+									<strong>16:30</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: The green mile</strong><br/>
+							<strong>Godina: 1999</strong>
+						</p>
+						<img src="Slike/The green mile.jpg" alt="The green mile" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Frank Darabont</strong><br/>
+								<strong>Pisci: Stephen King, Frank Darabont</strong><br/>
+								<strong>Zvezde: Tom Hanks, Michael Clarke Duncan, David Morse</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>20:00</strong>
+								</div>
+							</div>
+						</div>
+					</div><br/>
+					<div id="drama">
+						<h2>Drama</h2>
+						<p>
+							<strong>Film: Gladiator</strong><br/>
+							<strong>Godina: 2000</strong>
+						</p>
+						<img src="Slike/Gladiator.jpg" alt="Gladiator" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Ridley Scott</strong><br/>
+								<strong>Pisci: David Franzoni</strong><br/>
+								<strong>Zvezde: Russell Crowe, Joaquin Phoenix, Connie Nielsen</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>18:45</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: Titanic</strong><br/>
+							<strong>Godina: 1997</strong>
+						</p>
+						<img src="Slike/Titanic.jpg" alt="Titanic" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: James Cameron</strong><br/>
+								<strong>Pisci: James Cameron</strong><br/>
+								<strong>Zvezde: Leonardo DiCaprio, Kate Winslet, Billy Zane</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>08:00</strong>
+								</div>
+							</div>
+						</div>
+					</div><br/>
+					<div id="triler">
+						<h2>Triler</h2>
+						<p>
+							<strong>Film: Heat</strong><br/>
+							<strong>Godina: 1995</strong>
+						</p>
+						<img src="Slike/Heat.jpg" alt="Heat" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Michael Mann</strong><br/>
+								<strong>Pisci: Michael Mann</strong><br/>
+								<strong>Zvezde: Al Pacino, Robert De Niro, Val Kilmer</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>10:15</strong>
+								</div>
+							</div>
+						</div>
+						<p>
+							<strong>Film: The revenant</strong><br/>
+							<strong>Godina: 2015</strong>
+						</p>
+						<img src="Slike/The revenant.jpg" alt="The revenant" height="20%" width="10%"/>
+						<div class="kontekst">
+							<p>
+								<strong>Režiser: Alejandro G. Iñárritu</strong><br/>
+								<strong>Pisci: Mark L. Smith, Alejandro G. Iñárritu</strong><br/>
+								<strong>Zvezde: Leonardo DiCaprio, Tom Hardy, Will Poulter</strong>
+							</p>
+							<div class="projekcija"><span>Vreme projekcije &#9660;</span>
+								<div class="vreme">
+									<strong>12:15</strong><br/>
+									<strong>15:00</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</content>
+			</section>
+		</div><br style="clear: both;"/><br/>
+		<hr style="width: 95%;"/><p style="color: black; text-align: center;">Autorsko pravo &copy; 2017-2018. Sva prava zagarantovana.</p>
+		<footer>
+			<p>Sajt bioskop postoji zbog prodaje i kupovine karata, pregledanje filmova koji su dostupni za gledanje i vremenski periodi u kojima se prikazuju.</p>
+			<p>Prilkom korišćenja ovog sajta, vi se slažete da ste pročitali i prihvatili naše uslove korišćenja, kolačiće i pravila o privatnosti.</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="srb">
+	<head>
+		<title>Bioskop</title>
+		<base href="Karte.html" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="Bioskop, Karte, Film, Sedista, Blagajnik, Reziser" />
+		<meta name="description" content="Ovo je sajt za kupovinu karata za filmove" />
+		<meta name="author" content="Miloš Petrović" />
+		<link rel="icon" type="image/icon-x" href="Slike/Bioskop.png" />
+		<link rel="stylesheet" type="text/css" href="Karte.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Bioskop</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Bioskop.html">Početna</a></li>
+				<li class="padajuci_meni"><a href="Film.html">Filmovi</a>
+					<div class="sadrzaj_menija">
+						<a href="Film.html#zanrovi">Žanrovi</a>
+						<a href="#">2D</a>
+						<a href="#">3D</a>
+						<a href="#">4D</a>
+					</div>
+				</li>
+				<li class="padajuci_meni" style="border: 1px solid white"><a href="Karte.html">Karte</a>
+					<div class="sadrzaj_menija">
+						<a href="Karte.html#cena">Cena</a>
+						<a href="Karte.html#sedista">Broj sedišta</a>
+						<a href="Karte.html#blagajnici">Blagajnici</a>
+					</div>
+				</li>
+				<li class="padajuci_meni"><a href="Reziser.html">Režiseri</a>
+					<div class="sadrzaj_menija">
+						<a href="#">Hollywood</a>
+						<a href="#">Srpski</a>
+						<a href="#">Engleski</a>
+					</div>
+				</li>
+				<li id="pretraga_dugme"><a href="#" id="pretraga_link">Pretraga&nbsp;</a>
+					<input type="text" id="pretraga" />
+				</li>
+			</ul>
+		</nav><br/>
+		<div id="aside_section">
+			<aside>
+				<a class="fa fa-facebook" href="https://www.facebook.com/">&nbsp;&nbsp;Facebook</a><br/>
+				<a class="fa fa-youtube" href="https://www.youtube.com/">&nbsp;&nbsp;Youtube</a><br/>
+				<a class="fa fa-twitter" href="https://twitter.com/">&nbsp;&nbsp;Twitter</a><br/>
+				<a class="fa fa-linkedin" href="https://www.linkedin.com/">&nbsp;&nbsp;LinkedIn</a><br/>
+				<a class="fa fa-instagram" href="https://www.instagram.com/">&nbsp;&nbsp;Instagram</a><br/>
+				<a class="fa fa-google" href="https://www.google.rs/">&nbsp;&nbsp;Google</a><br/>
+				<a class="fa fa-tumblr" href="https://www.tumblr.com/">&nbsp;&nbsp;Tumblr</a><br/>
+				<a class="fa fa-vine" href="https://vine.co/">&nbsp;&nbsp;Vine</a><br/>
+				<a class="fa fa-github" href="https://github.com/">&nbsp;&nbsp;GitHub</a>
+			</aside>
+			<section>
+				<content>
+					<table>
+						<caption id="cena" style="color: white;"><h2>Cene karata</h2></caption>
+						<thead>
+							<tr style="background-color: gold;">
+								<th></th>
+								<th>Radnim danima</th>
+								<th>Vikendom</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="background-color: yellow;">
+								<td>2D projekcije do 15:00h</td>
+								<td>400 din</td>
+								<td>350 din</td>							
+							</tr>
+							<tr style="background-color: gold;">
+								<td>2D projekcije do 17:00h</td>
+								<td>350 din</td>
+								<td>325 din</td>								
+							</tr>
+							<tr style="background-color: yellow;">
+								<td>3D projekcije do 17:00h</td>
+								<td>550 din</td>
+								<td>500 din</td>								
+							</tr>
+							<tr id="last_tr" style="background-color: gold;">
+								<td>3D projekcije do 20:00h</td>
+								<td>325 din</td>
+								<td>300 din</td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption id="sedista" style="color: white;"><h2>Broj sedišta/karata</h2></caption>
+						<thead>
+							<tr style="background-color: gold;">
+								<th>Film</th>
+								<th>Sala 1</th>
+								<th>Sala 2</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="background-color: yellow;">
+								<td>Step brothers</td>
+								<td>40 sedišta/karata</td>
+								<td>30 sedišta/karata</td>							
+							</tr>
+							<tr style="background-color: gold;">
+								<td>The other guys</td>
+								<td>50 sedišta/karata</td>
+								<td>30 sedišta/karata</td>								
+							</tr>
+							<tr style="background-color: yellow;">
+								<td>Avatar</td>
+								<td>30 sedišta/karata</td>
+								<td>35 sedišta/karata</td>								
+							</tr>
+							<tr style="background-color: gold;">
+								<td>The void</td>
+								<td>30 sedišta/karata</td>
+								<td>35 sedišta/karata</td>								
+							</tr>
+							<tr id="last_tr" style="background-color: yellow;">
+								<td>The revenant</td>
+								<td>20 sedišta/karata</td>
+								<td>40 sedišta/karata</td>
+							</tr>
+						</tbody>
+					</table>
+					<div id="blagajnici">
+						<h2>Blagajnici</h2>
+						<p>Petar Petrović</p>
+						<div>
+							<span>Prodaje karte za filmove: Step brothers</span><br/>
+							<span>Ovaj blagajnik se nalazi na glavnom ulazu</span>
+						</div>
+						<p>Mika Mladenović</p>
+						<div>
+							<span>Prodaje karte za filmove: The other guys</span><br/>
+							<span>Ovaj blagajnik se nalazi na zadnjem izlazu</span>
+						</div>
+						<p>Laza Lazarević</p>
+						<div>
+							<span>Prodaje karte za filmove: Avatar</span><br/>
+							<span>Ovaj blagajnik se nalazi ispred sale 1</span>
+						</div>
+						<p>Nenad Nenadović</p>
+						<div>
+							<span>Prodaje karte za filmove: The revenant i The void</span><br/>
+							<span>Ovaj blagajnik se nalazi ispred sale 2</span>
+						</div>
+					</div>
+					<img id="grom0" src="Slike/Grom0.png"/>
+					<img id="grom1" src="Slike/Grom1.png"/>
+					<img id="grom2" src="Slike/Grom2.png"/>
+				</content>
+			</section>
+		</div><br style="clear: both;"/><br/>
+		<hr style="width: 95%;"/><p style="color: white; text-align: center;">Autorsko pravo &copy; 2017-2018. Sva prava zagarantovana.</p>
+		<footer>
+			<p>Sajt bioskop postoji zbog prodaje i kupovine karata, pregledanje filmova koji su dostupni za gledanje i vremenski periodi u kojima se prikazuju.</p>
+			<p>Prilkom korišćenja ovog sajta, vi se slažete da ste pročitali i prihvatili naše uslove korišćenja, kolačiće i pravila o privatnosti.</p>
+		</footer>
+	</body>
+</html>

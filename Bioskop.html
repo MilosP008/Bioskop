@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="srb">
+	<head>
+		<title>Bioskop</title>
+		<base href="Bioskop.html" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="Bioskop, Karte, Film, Sedista, Blagajnik, Reziser" />
+		<meta name="description" content="Ovo je sajt za kupovinu karata za filmove" />
+		<meta name="author" content="Miloš Petrović" />
+		<link rel="icon" type="image/icon-x" href="Slike/Bioskop.png" />
+		<link rel="stylesheet" type="text/css" href="Bioskop.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Bioskop</h1>
+		</header>
+		<nav>
+			<ul>
+				<li style="border: 1px solid white"><a href="Bioskop.html">Početna</a></li>
+				<li class="padajuci_meni"><a href="Film.html">Filmovi</a>
+					<div class="sadrzaj_menija">
+						<a href="Film.html#zanrovi">Žanrovi</a>
+						<a href="#">2D</a>
+						<a href="#">3D</a>
+						<a href="#">4D</a>
+					</div>
+				</li>
+				<li class="padajuci_meni"><a href="Karte.html">Karte</a>
+					<div class="sadrzaj_menija">
+						<a href="Karte.html#cena">Cena</a>
+						<a href="Karte.html#sedista">Broj sedišta</a>
+						<a href="Karte.html#blagajnici">Blagajnici</a>
+					</div>
+				</li>
+				<li class="padajuci_meni"><a href="Reziser.html">Režiseri</a>
+					<div class="sadrzaj_menija">
+						<a href="#">Hollywood</a>
+						<a href="#">Srpski</a>
+						<a href="#">Engleski</a>
+					</div>
+				</li>
+				<li id="pretraga_dugme"><a href="#" id="pretraga_link">Pretraga&nbsp;</a>
+					<input type="text" id="pretraga" />
+				</li>
+			</ul>
+		</nav><br/>
+		<div id="aside_section">
+			<aside>
+				<a class="fa fa-facebook" href="https://www.facebook.com/">&nbsp;&nbsp;Facebook</a><br/>
+				<a class="fa fa-youtube" href="https://www.youtube.com/">&nbsp;&nbsp;Youtube</a><br/>
+				<a class="fa fa-twitter" href="https://twitter.com/">&nbsp;&nbsp;Twitter</a><br/>
+				<a class="fa fa-linkedin" href="https://www.linkedin.com/">&nbsp;&nbsp;LinkedIn</a><br/>
+				<a class="fa fa-instagram" href="https://www.instagram.com/">&nbsp;&nbsp;Instagram</a><br/>
+				<a class="fa fa-google" href="https://www.google.rs/">&nbsp;&nbsp;Google</a><br/>
+				<a class="fa fa-tumblr" href="https://www.tumblr.com/">&nbsp;&nbsp;Tumblr</a><br/>
+				<a class="fa fa-vine" href="https://vine.co/">&nbsp;&nbsp;Vine</a><br/>
+				<a class="fa fa-github" href="https://github.com/">&nbsp;&nbsp;GitHub</a>
+			</aside>
+			<section>
+				<content>
+					<form method="#" action="POST" name="prijava" id="prijava">
+						<legend style="color: white; font-size: 30px;">Prijava</legend><br/>
+						<input type="text" placeholder="Ukucajte vaše ime..." required="required" /><br/><br/>
+						<input type="text" placeholder="Ukucajte vaše prezime..." required="required" /><br/><br/>
+						<input type="email" placeholder="Ukucajte vašu e-mail adresu..." required="required" /><br/><br/>
+						<input type="text" placeholder="Ukucajte vaše korisničko ime..." required="required" /><br/><br/>
+						<input type="password" placeholder="Ukucajte vašu šifru..." required="required" /><br/><br/>
+						<input type="radio" name="pol" />
+						<label for="pol" style="color: white;">Muško</label>
+						<input type="radio" name="pol" />
+						<label for="pol" style="color: white;">Žensko</label><br/><br/>
+						<input type="submit" value="Prihvati" />
+					</form>
+				</content>
+				<hr id="hr_line"/>
+				<content>
+					<form method="#" action="POST" name="logovanje" id="logovanje">
+						<legend style="color: white; font-size: 30px;">Logovanje</legend><br/>
+						<input type="text" placeholder="Ukucajte vašu e-mail adresu..." required="required"/><br/><br/>
+						<input type="password" placeholder="Ukucajte vašu šifru..." required="required"/><br/><br/>
+						<input type="checkbox" name="zapamti" />
+						<label for="zapamti" style="color: white;">Zapamti me</label><br/><br/>
+						<input type="submit" value="Prihvati" />
+					</form>
+				</content>
+			</section>
+		</div><br style="clear: both;"/><br/>
+		<hr style="width: 95%;"/><p style="color: white; text-align: center;">Autorsko pravo &copy; 2017-2018. Sva prava zagarantovana.</p>
+		<footer>
+			<p>Sajt bioskop postoji zbog prodaje i kupovine karata, pregledanje filmova koji su dostupni za gledanje i vremenski periodi u kojima se prikazuju.</p>
+			<p>Prilkom korišćenja ovog sajta, vi se slažete da ste pročitali i prihvatili naše uslove korišćenja, kolačiće i pravila o privatnosti.</p>
+		</footer>
+	</body>
+</html>
